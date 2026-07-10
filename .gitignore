@@ -1,0 +1,38 @@
+# ===== Unreal Engine 표준 .gitignore =====
+
+# 에디터가 자동 생성 (컴파일/캐시 결과물 — 절대 커밋 금지)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# 언리얼이 프로젝트 열 때마다 재생성하는 파일
+*.VC.opendb
+*.tmp
+
+# 콘솔/플랫폼 관련 자동 생성 폴더
+Build/
+
+# 패키징 결과물
+Saved/StagedBuilds/
+
+# OS 관련
+.DS_Store
+Thumbs.db
+
+# 환경설정 / 시크릿 (Firebase 키, API 키 등 — 절대 커밋 금지)
+*.env
+secrets.json
+Config/DefaultEditor.ini
+
+# 주의: Config/, Content/, Source/, *.uproject 는 반드시 커밋 대상입니다 (제외하지 않음)
